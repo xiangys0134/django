@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% extends 'base.html' %}
+{% block con %}
+    <form class="navbar-form navbar-left" role="search" method="post" action="">
+    {% csrf_token %}
+        <p>
+        <div class="form-group">
+            书籍 <input type="text" class="form-control" placeholder="书籍名称" name="title">
+        </div>
+        </p>
+        <p>
+        <div class="form-group">
+            价格 <input type="text" class="form-control" placeholder="书籍价格" name="price">
+        </div>
+        </p>
+        <p>
+        <div class="form-group">
+            出版社 <input type="text" class="form-control" placeholder="出版社" name="publish">
+        </div>
+        </p>
+        <p>
+        <div class="form-group">
+            作者 <input type="text" class="form-control" placeholder="作者" name="author">
+        </div>
+        </p>
+        <p>
+        <div class="form-group">
+            出版时间 <input type="text" class="form-control" placeholder="出版时间" name="publish_date">
+        </div>
+        </p>
+
+        <div class="from-button">
+            <button type="submit" class="btn btn-default">Submit</button>
+        </div>
+
+    </form>
+{% endblock %}
+</body>
+</html>
