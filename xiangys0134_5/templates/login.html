@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.js"></script>
+    <link rel="stylesheet" href="/static/bootstrap-3.3.7-dist/css/bootstrap.css">
+</head>
+<body>
+{% csrf_token %}
+<form>
+    用户名<input type="text" class="user">
+    密码<input type="text" class="pwd">
+    <input type="button" value="submit" class="login_btn"><span class="error"></span>
+</form>
+
+<script>
+    $(".login_btn").click(function () {
+        $.ajax({
+            url: '/login/',
+            type: "post",
+            data: {
+                user: $(".user").val(),
+                pwd: $(".pwd").val(),
+                csrfmiddlewaretoken: $("[name='csrfmiddlewaretoken']").val()
+            },
+            success:function (res) {
+                //console.log(res)
+                //res_respose=JSON.parse(res)
+                //console.log(res.code)
+                if (res.user){
+                    location.href="/books/"
+                }else {
+                    $(".error").html(res.msg).css("color","red")
+                    //console.log(res.msg)
+                    setTimeout(function () {
+                        $(".error").html('')
+                    },1000)
+                }
+            }
+        })
+    })
+</script>
+</body>
+</html>
+

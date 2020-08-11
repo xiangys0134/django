@@ -1,0 +1,1384 @@
+
+
+在继承中如果父类的方法子类中没有，使用self.方法名
+
+在继承中
+
+
+re模块
+
+面向对象
+
+/data/xc-computation-engine/xc-computation-server/start/start-interactive-computation.sh
+/data/xc-computation-engine/xc-computation-server/bin/run.sh
+
+
+反射
+
+模块和包
+
+
+异常处理
+
+新式类和经典类
+
+
+k8s集群
+
+node1 node2  node2 
+
+私有的方法和属性不能被子类继承
+
+
+私有的静态属性
+
+私有的对象属性
+
+私有的方法
+
+# 私有的
+
+单继承
+
+
+反射
+
+从本模块反
+
+
+/usr/local/bin/docker-compose -f /data/lnmp_g6p/docker-compose.yml stop
+
+
+
+
+父类的new方法帮忙开启了内存空间
+
+new
+
+
+模块的名字必须符合变量的规范
+
+
+
+
+
+模块搜索功能
+
+47.110.198.153
+
+
+
+
+IP 端口 协议
+
+tcp协议和udp协议
+
+3秒
+
+7次
+
+
+
+Rancher
+
+分段的update
+
+
+
+tcp协议和udp协议
+	 tcp建立三次握手
+	 
+
+
+socket封装语法：
+
+
+
+粘包
+
+ssh
+
+模拟ssh的功能
+
+
+明天开始可以学习k8s了
+
+
+
+
+
+指标库 #
+前端	#
+数据质量	#
+数据表	#
+大数据	#
+公共模块	#
+
+
+操作系统：
+
+cms
+
+cms-beta-osp-logs
+
+
+v1.2.0_202005191500
+
+
+120.76.240.183
+
+
+
+struct
+
+
+#菜单的系统标识
+  systemFlag: datafix
+#数据维护的菜单code
+  parentCode: D0
+column:
+  contrast_schedule: 0 0 0 * * ?
+  
+fields.addr:'192.168.20.120'
+
+作用就是把散落在各个机器的日志统一收集起来
+
+
+Create index pattern
+
+test-osp-logs-*
+cms-beta-computation-logs-*
+cms-beta-data-quality-logs-*
+cms-beta-indicator-logs-*
+cms-beta-metadata-logs-*
+cms-beta-osp-logs-*
+cms-beta-xhe-logs-*
+cms-beta-xmg-logs-*
+ipb-php-*
+nginx-*
+systems-*
+xone-logs*
+
+
+
+
+yyyy-MM-dd
+
+
+log.file.path:"registry-service"
+
+
+sshpass -p wolcNg4nkeg7nrglnQf} ssh -p 31235  -n opadm@192.168.10.182 "sudo printenv"
+
+
+文件上传
+
+apache lgnite
+
+
+log.file.path:'xc-uds'
+
+
+
+xiangys0134-k8s-master(10.115)
+xiangys0134-k8s-node01(10.116)
+xiangys0134-k8s-node02(10.117)
+
+
+
+hostnamectl set-hostname xiangys0134-k8s-node02
+
+元数据
+
+label
+
+key-value
+
+
+key-value
+
+Pod
+	自主式pod
+	节点故障 -- pod就消失了
+	
+	
+	控制器
+	
+fields.addr:'192.168.0.168' AND log.file.path:'error'
+
+
+pause:3.2
+
+
+pause-v3.2
+
+
+coredns-v1.6.7
+
+
+etcd-v3.4.3-0
+
+3.4.3-0
+
+3.4.3-0
+
+
+/^etcd-v([0-9.-]+)$/
+
+
+
+
+192.168.10.115 xiangys0134-k8s-master
+192.168.10.116 xiangys0134-k8s-node01
+192.168.10.117 xiangys0134-k8s-node02
+
+
+pod的地址不能冲突
+
+Overlay network
+
+fannel 二层桥
+
+
+etcd可以将相同的数据存放至多份
+
+k8s的网络解决方案
+
+CNI的网络插件 flannel
+
+
+10.96.0.0
+
+10.244.0.0
+
+flannel默认
+
+service网络 
+
+pods
+
+节点增加污点
+
+kubectl create deployment nginx-deploy --image=nginx:1.14-alpine --port=80 --replicas=1
+
+
+资源：对象
+
+配置与存储相关的资源 PV PVC
+
+
+特殊类型的存储卷 
+	configmapp
+	secret
+	
+集群级别的资源
+	namespace
+	node
+	clusterrole
+	
+元数据型资源
+	HPA
+
+group/version	core
+
+[]
+
+资源清单
+
+
+
+
+
+不存在
+
+
+容器的重启策略
+
+
+容器探测
+	探针
+		ExecAction
+		TCP
+		
+lifecycle
+
+
+livenessPro
+
+
+Zend Guard License
+
+
+lifecycle
+
+在容器生命周期内有poststart和prestop两个处理函数
+
+
+通过crontab重启pod
+
+
+
+restartPolicy
+	Always
+	Never
+	OnFailure
+	
+lifecycle 是个钩子
+HTTPGetAction:
+
+
+控制器
+	
+
+
+
+helm
+
+
+store@roguewave.com
+
+
+deployment是在replicaset之上
+
+
+
+
+
+
+
+v1.2.0_202005221102_cmf
+
+
+
+
+
+
+xc-osp-zhaoji.spec
+
+
+
+v1.2.0_202005221930
+
+
+
+curl -XGET http://10.29.255.149:9200/_nodes/process?pretty
+
+容器可以共享使用主机的名称空间
+
+kube-proxy
+
+
+类型：
+	
+service -- Endpoints -- pod
+
+redis.default.svc.cluster.local
+
+
+	
+无头服务 表示通过service_name 直接至后端应用
+
+
+
+
+
+myapp-svc.default.svc.cluster.local
+
+
+ingress 是一种七层调度器
+
+
+Envoy
+
+
+
+
+
+
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-0.32.0/deploy/static/provider/baremetal/deploy.yaml
+
+
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-0.32.0/deploy/static/provider/baremetal/deploy.yaml
+
+
+
+ingress没用好。
+
+根据应用本身是否需要数据
+
+有状态
+
+pod故障
+
+pod是有生命周期
+
+
+
+JENKINS_AGENT_WORKDIR
+
+
+
+
+  xone-dev-rpm:
+    image: xiangys0134/xc_devtool_xone:xone-java-dev-rpm-v0.1
+    container_name: xone-dev-rpm
+    restart: always
+    privileged: true
+    entrypoint: ["/bin/sh","/usr/local/bin/jenkins.sh"]
+    environment:
+      - JENKINS_URL=http://jenkins:8080/computer/xone-dev-rpm/slave-agent.jnlp
+      - JENKINS_SECRET=27a798cb84369b00c24b81138aaca4404b384b4a7ae7d1a295a1d540d104d1e3
+      - JENKINS_AGENT_WORKDIR=/data/jenkins_home
+      - JENKINS_USER=root
+    networks:
+      - xunce
+	  
+	 build-scada-task-rpm 
+build-scada-task-rpm
+
+        interval 2                     
+        fall 3 
+
+/data/storage/nfs01 192.168.10.0/24(ro,sync,no_root_squash,subtree_check)
+/data/storage/nfs02 192.168.10.0/24(ro,sync,no_root_squash,subtree_check)
+/data/storage/nfs03 192.168.10.0/24(ro,sync,no_root_squash,subtree_check)
+/data/storage/nfs04 192.168.10.0/24(ro,sync,no_root_squash,subtree_check)
+/data/storage/nfs05 192.168.10.0/24(ro,sync,no_root_squash,subtree_check)
+
+
+
+
+
+
+emptyDir
+
+分布式存储
+
+glusterfs
+
+
+
+Proceess [16180] didn't respond to SIGTERM
+
+
+
+qmkoVSElksds0ew98
+
+
+
+09:06:57 redis01 Keepalived_vrrp[20937]: VRRP_Instance(redis) Entering FAULT STATE
+
+
+
+
+host type
+
+
+
+
+volumesMounts
+
+
+keepalived细化的点：
+1.主从端口切换的脚本
+2.检查脚本
+3.切换脚本(kill keepalived)
+
+
+192.168.0.174
+192.168.0.175
+
+
+xone-test-tmp-01(0.174)
+xone-test-tmp-02(0.175)
+hostnamectl set-hostname xone-test-tmp-01
+
+beta环境ftp
+47.96.107.161/172.16.0.25	xc_ftpuser/rzAYJ4Ba1NT7iplYqFcB
+
+
+StorageClass 
+
+
+            9770,
+            9771,
+
+配置中心
+
+configmap
+
+明文传数据的
+
+
+有网环境：
+yum install keepalived
+
+
+无网环境：
+rpm -Uvh net-snmp-agent-libs-5.7.2-33.el7_5.2.x86_64.rpm net-snmp-libs-5.7.2-33.el7_5.2.x86_64.rpm (keepalived依赖包)
+rpm -ivh keepalived-1.3.5-6.el7.x86_64.rpm nginx-1.14.0-1.el7_4.ngx.x86_64.rpm
+随系统开机启动：
+systemctl enable nginx.service
+systemctl enable  keepalived.service
+
+
+
+192.168.0.60
+192.168.0.61
+
+args
+
+弹性改变
+
+环境变量
+
+存储卷
+
+
+
+环境变量传递数据时cm不会修改
+
+
+
+server{ 
+      listen 80; 
+      server_name localhost;
+	  root   /usr/share/nginx/html;
+  }
+
+
+kubectl create c nginx-www --from-file=
+
+
+
+token令牌认证  预共享秘钥
+ssl认证
+
+
+阶段	读取的目录	写入的目录	具体动作
+
+
+%prep	%_sourcedir	%_builddir	读取位于 %_sourcedir 目录的源代码和 patch 。之后，解压源代码至 %_builddir 的子目录并应用所有 patch。
+%build	%_builddir	%_builddir	编译位于 %_builddir 构建目录下的文件。通过执行类似 "./configure && make" 的命令实现。
+%install	%_builddir	%_buildrootdir	读取位于 %_builddir 构建目录下的文件并将其安装至 %_buildrootdir 目录。这些文件就是用户安装 RPM 后，最终得到的文件。注意一个奇怪的地方: 最终安装目录 不是 构建目录。通过执行类似 "make install" 的命令实现。
+%check	%_builddir	%_builddir	检查软件是否正常运行。通过执行类似 "make test" 的命令实现。很多软件包都不需要此步。
+bin	%_buildrootdir	%_rpmdir	读取位于 %_buildrootdir 最终安装目录下的文件，以便最终在 %_rpmdir 目录下创建 RPM 包。在该目录下，不同架构的 RPM 包会分别保存至不同子目录， "noarch" 目录保存适用于所有架构的 RPM 包。这些 RPM 文件就是用户最终安装的 RPM 包。
+src	%_sourcedir	%_srcrpmdir	创建源码 RPM 包（简称 SRPM，以.src.rpm 作为后缀名），并保存至 %_srcrpmdir 目录。SRPM 包通常用于审核和升级软件包。
+
+
+%pre
+在软体包安装之前
+
+
+需要被打包/安装的文件列表
+
+
+
+
+创建了一个sa之后会相应的生成一个secret的资源对象，一般结构为用户-token-hash码
+
+tls
+
+RBAC
+
+kubeconfig
+
+
+action 行为
+
+
+用户账号
+rolebinding	角色绑定	
+
+role  rolebinding
+
+clusterole clusterolebinding
+
+role是要分名称空间的
+
+clusterole	#定义所有名称空间的资源对象
+
+
+
+7kxwHiyi0j*0AKSJAH7Ez
+
+
+
+18902477673
+
+
+
+clusterole
+
+role
+
+redis-cli -p 6380 -a intel.com DEBUG sleep 60
+
+
+
+授权插件
+
+
+常见的授权模式：
+Node ABAC RBAC Webhook
+
+
+
+RBAC默认就是拒绝所有
+
+
+
+apiGroups
+
+
+clusterole属于集群范围而不属于名称空间范畴
+
+ClusterRole是没有名称空间
+
+使用rolebinding绑定clusterrole时如果指定的名称空间则只有改名称空间有权限，如果多个名称空间怎么处理？ 
+
+
+url
+非对象资源
+
+
+名称空间和集群
+
+scheduler	守护进程
+
+
+预选
+优选
+
+同一个节点或者相邻
+
+
+测试环境其他项目
+
+
+
+cms-test-indicator-logs
+cms-test-metadata-logs-
+
+
+
+default_list
+http://mirrors.xuncetech.com/mysql-repo/yum/RPM-GPG-KEY-mysql
+
+function start_c(){
+sudo systemctl restart xc@gateway
+sudo systemctl restart xc@mysqlservice
+sudo systemctl restart xc@basicservice
+sudo systemctl restart xc@brokerservice
+sudo systemctl restart xc@orderservice
+sudo systemctl restart xc@queryservice
+sudo systemctl restart xc@liquidateservice
+sudo systemctl restart xc@quantservice
+sudo systemctl restart xc@riskservice
+sudo systemctl restart xc@assetcalclib
+}
+
+
+2020-05-28 15:18:20 xone_check.py[line:54] ERROR 端口:8063 异常
+2020-05-28 15:18:20 xone_check.py[line:50] INFO 端口:8851 正常
+2020-05-28 15:18:20 xone_check.py[line:54] ERROR 端口:8852 异常
+2020-05-28 15:18:20 xone_check.py[line:50] INFO 端口:8860 正常
+2020-05-28 15:18:20 xone_check.py[line:50] INFO 端口:8853 正常
+2020-05-28 15:18:20 xone_check.py[line:54] ERROR 端口:8850 异常
+2020-05-28 15:18:20 xone_check.py[line:50] INFO 端口:8062 正常
+2020-05-28 15:18:20 xone_check.py[line:54] ERROR 端口:8073 异常
+2020-05-28 15:18:20 xone_check.py[line:50] INFO 端口:8061 正常
+2020-05-28 15:18:20 xone_check.py[line:54] ERROR 端口:9999 异常
+2020-05-28 15:18:20 xone_check.py[line:50] INFO 端口:8001 正常
+2020-05-28 15:18:20 xone_check.py[line:54] ERROR 端口:8032 异常
+2020-05-28 15:18:20 xone_check.py[line:50] INFO 端口:9771 正常
+2020-05-28 15:18:20 xone_check.py[line:54] ERROR 端口:8031 异常
+
+
+baseurl=http://repo.mysql.com/yum/mysql-8.0-community/
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql
+
+
+./xone-configuration/config/authorization/dev/application.yml
+./xone-configuration/config/foundation/dev/application.yml
+./xone-configuration/config/instruction/dev/application.yml
+./xone-configuration/config/messaging/dev/application.yml
+./xone-configuration/config/risk/dev/application.yml
+./xone-configuration/config/workflow/dev/application.yml
+
+
+
+
+xiangys0134/agent:nodejs-12.18.0
+
+
+
+./frame/logs/orderservice.log
+
+./frame/logs/gateway.log
+./frame/logs/basicservice.log
+./frame/logs/queryservice.log
+./frame/logs/liquidateservice.log
+./frame/logs/quantservice.log
+./frame/logs/riskservice.log
+./frame/logs/brokerservice.log
+./frame/logs/.queryservice.log.swp
+./frame/logs/brokerservice.2.log
+./frame/logs/mysqlservice.8.log
+./frame/logs/brokerservice.3.log
+./frame/logs/mysqlservice.9.log
+./frame/logs/assetcalcservice.log
+./frame/logs/brokerservice.1.log
+./frame/profile/brokerservice.xml
+./frame/profile/liquidateservice.xml
+
+zhaozheng-cmfchina-oracle-front-test.
+zhaozheng-cmfchina-oracle-front-test
+47.96.80.96
+47.99.200.152
+
+ssh://git@192.168.0.22:11022/xc-front/cmfchina-front.git
+
+
+3.45.0/2
+
+milliseconds
+virus.vbs.cryptevil.o
+
+
+vendor.dbf99c8c.chunk.js
+
+
+
+
+http://114.55.219.85/omsv2/oms不
+
+http://114.55.219.85/
+
+multiline.pattern: '^[-0-9 :,]+\d+:\d+:\d+.\d+'
+
+bdb448bc-b371-40cf-bf3a-6283b70869ce
+
+v1.2.0_202007101630_cmf
+
+
+gitlab--jenkins的双向认证
+
+http://192.168.0.216:8080/job/deploy-test/
+http://admin:1169ba0a174662eac2f755a994c39df0a3@192.168.0.216:8080/job/deploy-test
+
+
+1169ba0a174662eac2f755a994c39df0a3
+
+
+test-zhaoji-xc-computation-engine-build
+
+
+5a2ba4955f365fc8a485a7c78d5b3efc
+
+
+http://192.168.0.22:11080/xc-front/cmfchina-front.git
+XsEBpVHDpTsiJ4JHv9au
+
+
+U2b37f-Cxz-H9dH1jPu7
+
+
+urls.py
+
+使用Threading模块创建线程
+
+subprocess.call
+
+
+subprocess.call
+
+
+logging.basicConfig(level=logging.DEBUG,
+					format='%(asctime)s %(filename)s[line:%(lineno)d] %(levelname)s %(message)s',
+					datefmt='%Y-%m-%d %H:%M:%S',
+					filename=res_log,
+					filemode='a+')
+logger1 = logging.getLogger('myapp.area1')
+logger2 = logging.getLogger('myapp.area2')
+
+threads = []
+for i in range(1,10):
+	thr = threading.Thread(target=is_reacheable,args=(host_server,logger1,logger2))
+	thr.start()
+	threads.append(thr)
+for thr in threads:
+	thr.join()
+	
+	
+django的登录与认证
+
+
+56f417af6f8d5fc455fdc3cd6650ea1d
+
+
+5a2ba4955f365fc8a485a7c78d5b3efc
+
+
+GitLab到Jenkins身份验证
+
+
+默认情况下，该插件将要求为从GitLab到Jenkins的连接设置身份验证，以防止未经授权的人员触发工作。
+Integrations Settings
+
+
+Jenkins到GitLab身份验证
+
+
+请注意：此身份验证配置仅用于访问GitLab API以将构建状态发送到GitLab。它不用于克隆git repos。克隆的凭据（通常是SSH凭据）应在git插件中单独配置
+
+Account
+
+Private token
+
+
+configure system
+refs/tags/v0.0.15
+
+
+
+一天单表，两天多表
+
+单表
+
+pymysql
+
+
+django没有orm就不叫orm
+
+
+
+mysqld
+
+
+mysqldb
+
+
+deploy-jar
+build whenever a snapshot dependency is built
+
+groovy language
+
+
+betbeans categirues 没有java 
+
+https://wenku.baidu.com/view/c20b98ea551810a6f5248603
+
+
+GroovyJavaDemo 
+
+grails
+
+
+intellij
+
+
+Intellij run Example.main
+
+Groovy with Intellij
+
+run Example.main 错误: 找不到或无法加载主类 Example
+
+
+单表操作
+	项目操作顺序
+		1.在models.py创建表结构
+		
+		
+项目启动
+
+查询有13个api
+
+<QuerySet [<Book: Book object (1)>, <Book: Book object (2)>, <Book: Book object (3)>]>
+
+__str__
+
+
+模型对象
+
+1.all()方法
+
+queryset是多个列表元素(类似)
+
+
+Louls
+
+
+双下划线
+
+
+查询价格大于
+
+模糊查询
+
+
+560.45
+1642.8
+4276.65
+898.21
+7378.11
+
+1036.80
+
+
+419.43
+
+
+
+6540.81
+7330.02
+
+13870.83
+6816.81
+
+14146.83
+7330.02
+7330.02
+
+560.45
+
+
+7890.47
+898.21
+6816.81
+4276.65
+
+优塔云
+
+.gitignore
+
+django非常强大的就是一个orm系统
+
+
+__gt=100
+
+title__startwith='py'
+
+
+title__containe='py'
+
+作业讲解：
+、
+wp editor.md
+
+Bootstrap
+settings.py
+E:\python_study\xiangys0134_02\static/bootstrap-3.3.7-dist/css/bootstrap.css
+
+STATICFILES_DIRS=[
+    os.path.join(BASE_DIR,"static")
+]
+
+
+<link rel="stylesheet" href="/static/bootstrap-3.3.7-dist/css/bootstrap.css">
+
+/delete/3
+/update/32
+
+agent-maven-v1.0.2
+docker pull xiangys0134/agent:agent-maven-v1.0.2
+
+ls /data/xc-osp/ |grep -v "all_libs" |grep -v "db"|grep -v "doc"|grep -v "common-client"|grep -v "java_pid220119.hprof"
+
+
+
+java_pid220119.hprof
+|grep -v "java_pid.*.hprof"
+
+http://192.168.0.38/ops/zhaozheng-osp-oracle-test.git
+
+
+crm
+
+python
+
+
+多表操作
+
+表与表的关系
+
+一对多
+多对一
+多对多
+
+
+一对一
+
+ForeignKey
+
+OneToOneField
+
+ManyToManyField
+
+
+图书管理系统请求
+
+day56
+
+orm的多表操作(sql)
+
+1.添加记录
+2.查询
+3.删除
+4.更新
+
+
+
+go
+
+Book.object.fi
+
+
+多对多添加
+
+绑定多对多的关系
+
+models.py
+
+ManyToManyField
+
+
+跨表查询：
+	基于对象跨表查询
+	基于双下划线查询
+	
+
+left jion
+
+
+
+2.4 *30
+
+
+print(obj)
+
+连续跨表
+
+今日作业
+	1.查询联系
+	2.基于多表图书管理系统
+
+return 
+
+
+查询linux出版社的地址
+查询alex作者出版过的所有书籍
+
+查询alex的手机号
+查询手机号为234的名字
+
+查询橘子出版社出版过的所有书籍的名字以及作者的姓名
+
+
+
+failed to restart uv@gateway.service Unit not found
+
+
+
+                    <td>
+                        {% for author_obj in obj.author.all %}
+                            <span>{{ author_obj.name }}</span>
+                        {% endfor %}
+                    </td>
+
+
+
+
+
+book.publish.pk == 
+
+
+
+
+
+HMB45
+
+
+市场营销和推销的不同之处是什么？
+1.起点不同，推销的起点是工程或种植园，市场营销的起点是市场
+2.中心不同，推销的中心是产品，市场营销的中心是顾客需求
+3.终点不同，推销的终点是通过销售获得利润，市场营销的终点是通过满足顾客需求获取利润
+
+什么是市场营销策划？试叙市场营销的意义？
+市场营销策划是指企业对未来将要发生的市场营销活动进行全面、系统筹划的一种超前决策，它提供的一套关于企业市场营销的未来方案，其作用可以视为企业市场营销管理软件。
+
+市场营销的意义：
+1.进入住处时代，信息需要
+2.四自原则，需要营销策划
+3.条件具备
+4.决策的科学化、程序化和效能话、地位提高
+
+市场营销策划的特点、类型和原则
+特点：
+1.目的性
+2.战略性
+3.动态性
+4.可操作性性
+
+类型：
+1.按性质划分
+
+
+
+分组查询
+
+计算所有图书的平均价格
+from django.db.models import Avg,Count,Max,Min
+Book.objects.all().aggregate(Avg("price"))
+{'price__avg': 112.5}
+Book.objects.all().aggregate(avg_price=Avg("price"))
+{'avg_price': 112.5}
+
+
+所有书籍的最高价格和最低价格
+Book.objects.aggregate(Max("price"),Min("price"))
+{'price__max': Decimal('140'), 'price__min': Decimal('90')}
+
+分组：
+select dep,Count from emp group by dep 
+select dep,AVG(*) from emp group by dep
+
+
+5556
+
+5556
+
+jmf.f3322.net
+	
+jmf.f3322.net
+
+xunce.f3322.net
+
+
+	
+jmf.f3322.net
+
+
+47.99.155.226
+
+ip route 172.10.5.0 255.255.255.0 47.99.155.226
+
+192.168.5.19 -> 172.10.5.20
+192.168.5.20 	172.10.5.20
+
+www.baidu.com ---外网 
+
+
+
+
+
+ip route 0.0.0.0 0.0.0.0 47.99.155.226
+
+192.168.5.19 -> 172.10.5.20
+
+www.baidu.com
+192.168.5.19 -> 47.99.155.226
+
+192.168.5.1 -- route  --> 47.99.155.226 --请求www.baidu.com
+
+python名称空间
+annotate
+
+查询每一个省份的平均薪水
+
+多表分组查询
+
+
+
+
+
+查询每一个出版社的名字和出版过的所有书籍的平均价格
+
+
+查询每一个作者的名字以及出版书籍的个数
+
+
+查询每一个书籍的名称以及作者的个数
+
+
+查询作者个数大于1的每一本书籍的名称和作者个数
+
+
+查询书籍名称包含"h"的书籍名称和作者个数
+
+查询评论数大于100的文章
+
+查询评论数大于点赞数的文章
+
+查询点赞数大于两倍评论数的文章
+将所有书籍价格提高100元
+
+
+查询书籍包含"h" 或者以"G"开头的书籍
+
+分组查询
+
+
+ajax
+
+
+客户端
+
+
+
+学员专用功能，您不是该类别学员
+
+
+
+php artisan tool:sync_permission_menu
+
+
+sudo -H -u nginx bash -c '/bin/cp -rf /data/www/gmf_utility/config/excel_parse/l0_data/*  /data/www/gmf_utility/storage/excel_parse_configs/l0_data/'
+
+
+php artisan tool:compatible_user_permission --user_id=280000 --set_permission=181,182,183,184,185,186
+php artisan tool:compatible_user_permission --user_id=360359 --set_permission=181,182,183,184,185,186
+
+
+php artisan tool:compatible_user_permission --user_id=280000 --set_permission=181,182,183,184,185,186
+php artisan tool:compatible_user_permission --user_id=360000 --set_permission=181,182,183,184,185,186
+php artisan tool:compatible_user_permission --user_id=360359 --set_permission=181,182,183,184,185,186
+
+
+ajax有两个特定：
+	局部刷新
+	异步请求
+	
+
+ajax
+
+返回json字符串
+
+
+基于ajax实现删除刷新
+
+
+文件上传
+
+
+application/json
+
+标识算法
+
+
+
+信息安全服务资质 安全运维
+
+
+面向数据挖掘的隐私保护
+
+认证技术描述中，错误的是
+
+数字水印
+
+数字信封技术
+
+
+Bell-LaPadual模型
+
+安全电子交易协议SET是由VISA
+
+PKI是一个认证体系
+
+取素
+
+软考信息安全工程师专业
+
+密码学
+网络安全
+计算机系统安全
+应用系统安全
+信息安全管理，相关法律和标准
+
+
+密码学
+
+
+数据安全
+行为安全
+
+
+密码学
+
+客户端给服务器发请求的方式：
+1.地址栏发请求
+2.
+
+
+3.46.0/1
+
+application/json
+
+
+3.46.0/1_2
+
+
+js
+
+url: "",
+type: "get",
+
+
+mv /data/xc_rel_compile_pack /data/3.46.0_1_3_202008031559
+sudo cp -r /data/www/xc-live-tunnel/etc /data/3.46.0_1_3_202008031559/xc-live-tunnel/
+
+
+cp -r /data/www/gmf_utility/storage/excel_parse_configs /data/3.46.0_1_3_202008031559/gmf_utility/storage/
+
+ cp -r /data/www/gmf_utility/storage/app/public /data/3.46.0_1_3_202008031559/gmf_utility/storage/app/
+ 
+ 
+ sql_mode=STRICT_TRANS_TABLES,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+ sql_mode=STRICT_TRANS_TABLES,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+ 
+ 
+ 
+ sed -i '/^user=/cuser=nginx' /data/3.46.0_1_3_202008031559/xc-pms/supervisor-worker.conf
+ 
+ 
+ rm -f /data/www && sudo ln -s /data/3.46.0_1_3_202008031559 /data/www
+
+
+find ./ -maxdepth 1 -name "3.*" -type d -mtime +10 -exec rm -rf {} \;
+
+
+mysql -uroot -p -P 33505 -S /data/mysql/data33505/mysql.sock
+ 
+qmkoVSElksds0ew98
+
+django框架
+
+向服务器发送请求
+
+服务器对应
+
+浏览器接收响应后会触发
+
+ajax请求不要返回render
+
+
+1.请求登录
+2.ajax删除
+
+
+英语学习
+
+
+
+文件上传
+
+
+文件上传
+
+form表单
+
+
+
+
